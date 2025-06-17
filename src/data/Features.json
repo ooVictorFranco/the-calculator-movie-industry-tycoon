@@ -117,23 +117,40 @@
                 ]
             }
         },
-        "records": {
-            "period-writer": {
+        "records":
+        {
+            "period-writer":
+            {
                 "name-key": "period-writer",
                 "set-id": "dialogues",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "period-writer"
                 ],
+                "cost":
+                {
+                    "small": 200000,
+                    "medium": 300000,
+                    "large": 500000,
+                    "blockbuster": 800000
+                },
                 "complexity": 2,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "writing": 25
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "critics": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 1,
                     "alternatereality": 1,
                     "assassin": 3,
@@ -200,29 +217,45 @@
                     "wildwest": 2,
                     "witch": 3,
                     "zombie": 0,
-                    "artist": 1,
+                    "artist": 2,
                     "treasurehunt": 2,
                     "familyrelationships": 1,
-                    "breakup": 3,
+                    "breakup": 2,
                     "religion": 0
                 }
             },
-            "vernacular-expert": {
+            "vernacular-expert":
+            {
                 "name-key": "vernacular-expert",
                 "set-id": "dialogues",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "vernacular-expert"
                 ],
+                "cost":
+                {
+                    "small": 200000,
+                    "medium": 300000,
+                    "large": 500000,
+                    "blockbuster": 800000
+                },
                 "complexity": 2,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "writing": 25
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "critics": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 2,
                     "alternatereality": 0,
                     "assassin": 0,
@@ -289,29 +322,45 @@
                     "wildwest": 3,
                     "witch": 3,
                     "zombie": 1,
-                    "artist": 1,
-                    "treasurehunt": 0,
+                    "artist": 2,
+                    "treasurehunt": 2,
                     "familyrelationships": 3,
                     "breakup": 0,
-                    "religion": 0
+                    "religion": 3
                 }
             },
-            "cutlural-references": {
+            "cutlural-references":
+            {
                 "name-key": "cutlural-references",
                 "set-id": "dialogues",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "cutlural-references"
                 ],
+                "cost":
+                {
+                    "small": 50000,
+                    "medium": 75000,
+                    "large": 125000,
+                    "blockbuster": 200000
+                },
                 "complexity": 1,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "writing": 20
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "audience": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 1,
                     "alternatereality": 0,
                     "assassin": 1,
@@ -378,29 +427,45 @@
                     "wildwest": 1,
                     "witch": 3,
                     "zombie": 2,
-                    "artist": 3,
-                    "treasurehunt": 3,
-                    "familyrelationships": 0,
-                    "breakup": 1,
-                    "religion": 0
+                    "artist": 2,
+                    "treasurehunt": 2,
+                    "familyrelationships": 2,
+                    "breakup": 0,
+                    "religion": 1
                 }
             },
-            "quips-&-catchphrases": {
+            "quips-&-catchphrases":
+            {
                 "name-key": "quips-&-catchphrases",
                 "set-id": "dialogues",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "quips-&-catchphrases"
                 ],
+                "cost":
+                {
+                    "small": 450000,
+                    "medium": 675000,
+                    "large": 1100000,
+                    "blockbuster": 1799999.9999999998
+                },
                 "complexity": 3,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "writing": 30
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "audience": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 1,
                     "alternatereality": 1,
                     "assassin": 1,
@@ -467,29 +532,45 @@
                     "wildwest": 1,
                     "witch": 2,
                     "zombie": 2,
-                    "artist": 3,
-                    "treasurehunt": 1,
-                    "familyrelationships": 0,
-                    "breakup": 2,
-                    "religion": 0
+                    "artist": 2,
+                    "treasurehunt": 2,
+                    "familyrelationships": 2,
+                    "breakup": 1,
+                    "religion": 1
                 }
             },
-            "voiceover": {
+            "voiceover":
+            {
                 "name-key": "voiceover",
                 "set-id": "dialogues",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "voiceover"
                 ],
+                "cost":
+                {
+                    "small": 200000,
+                    "medium": 300000,
+                    "large": 500000,
+                    "blockbuster": 800000
+                },
                 "complexity": 2,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "writing": 25
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "audience": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 2,
                     "alternatereality": 1,
                     "assassin": 3,
@@ -556,29 +637,45 @@
                     "wildwest": 2,
                     "witch": 1,
                     "zombie": 1,
-                    "artist": 0,
-                    "treasurehunt": 0,
-                    "familyrelationships": 3,
-                    "breakup": 2,
-                    "religion": 2
+                    "artist": 2,
+                    "treasurehunt": 2,
+                    "familyrelationships": 2,
+                    "breakup": 3,
+                    "religion": 3
                 }
             },
-            "character-arcs": {
+            "character-arcs":
+            {
                 "name-key": "character-arcs",
                 "set-id": "script",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "character-arcs"
                 ],
+                "cost":
+                {
+                    "small": 450000,
+                    "medium": 675000,
+                    "large": 1100000,
+                    "blockbuster": 1799999.9999999998
+                },
                 "complexity": 3,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "writing": 30
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "audience": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 1,
                     "alternatereality": 2,
                     "assassin": 2,
@@ -645,29 +742,45 @@
                     "wildwest": 0,
                     "witch": 3,
                     "zombie": 1,
-                    "artist": 3,
-                    "treasurehunt": 3,
-                    "familyrelationships": 0,
-                    "breakup": 3,
-                    "religion": 3
+                    "artist": 2,
+                    "treasurehunt": 2,
+                    "familyrelationships": 2,
+                    "breakup": 2,
+                    "religion": 0
                 }
             },
-            "subtext-writing": {
+            "subtext-writing":
+            {
                 "name-key": "subtext-writing",
                 "set-id": "script",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "subtext-writing"
                 ],
+                "cost":
+                {
+                    "small": 50000,
+                    "medium": 75000,
+                    "large": 125000,
+                    "blockbuster": 200000
+                },
                 "complexity": 1,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "writing": 20
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "critics": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 1,
                     "alternatereality": 1,
                     "assassin": 1,
@@ -734,29 +847,45 @@
                     "wildwest": 1,
                     "witch": 2,
                     "zombie": 0,
-                    "artist": 1,
-                    "treasurehunt": 0,
-                    "familyrelationships": 3,
-                    "breakup": 2,
-                    "religion": 3
+                    "artist": 2,
+                    "treasurehunt": 2,
+                    "familyrelationships": 2,
+                    "breakup": 1,
+                    "religion": 0
                 }
             },
-            "world-building": {
+            "world-building":
+            {
                 "name-key": "world-building",
                 "set-id": "script",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "world-building"
                 ],
+                "cost":
+                {
+                    "small": 800000,
+                    "medium": 1200000,
+                    "large": 1999999.9999999998,
+                    "blockbuster": 3199999.9999999995
+                },
                 "complexity": 4,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "writing": 35
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "audience": 8
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 3,
                     "alternatereality": 3,
                     "assassin": 1,
@@ -823,29 +952,45 @@
                     "wildwest": 2,
                     "witch": 1,
                     "zombie": 2,
-                    "artist": 2,
-                    "treasurehunt": 3,
-                    "familyrelationships": 0,
+                    "artist": 1,
+                    "treasurehunt": 1,
+                    "familyrelationships": 2,
                     "breakup": 3,
-                    "religion": 0
+                    "religion": 3
                 }
             },
-            "multiple-plotlines": {
+            "multiple-plotlines":
+            {
                 "name-key": "multiple-plotlines",
                 "set-id": "script",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "multiple-plotlines"
                 ],
+                "cost":
+                {
+                    "small": 200000,
+                    "medium": 300000,
+                    "large": 500000,
+                    "blockbuster": 800000
+                },
                 "complexity": 2,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "writing": 25
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "critics": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 1,
                     "alternatereality": 2,
                     "assassin": 2,
@@ -912,29 +1057,45 @@
                     "wildwest": 0,
                     "witch": 3,
                     "zombie": 1,
-                    "artist": 0,
+                    "artist": 2,
                     "treasurehunt": 2,
-                    "familyrelationships": 0,
+                    "familyrelationships": 2,
                     "breakup": 2,
-                    "religion": 3
+                    "religion": 0
                 }
             },
-            "thematic-expertise": {
+            "thematic-expertise":
+            {
                 "name-key": "thematic-expertise",
                 "set-id": "script",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "thematic-expertise"
                 ],
+                "cost":
+                {
+                    "small": 200000,
+                    "medium": 300000,
+                    "large": 500000,
+                    "blockbuster": 800000
+                },
                 "complexity": 2,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "writing": 25
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "critics": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 2,
                     "alternatereality": 0,
                     "assassin": 1,
@@ -1002,28 +1163,44 @@
                     "witch": 3,
                     "zombie": 0,
                     "artist": 3,
-                    "treasurehunt": 0,
-                    "familyrelationships": 0,
-                    "breakup": 0,
-                    "religion": 1
+                    "treasurehunt": 3,
+                    "familyrelationships": 1,
+                    "breakup": 1,
+                    "religion": 3
                 }
             },
-            "prosthetics-&-wigs": {
+            "prosthetics-&-wigs":
+            {
                 "name-key": "prosthetics-&-wigs",
                 "set-id": "costumes-&-makeup",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "prosthetics-&-wigs"
                 ],
+                "cost":
+                {
+                    "small": 200000,
+                    "medium": 300000,
+                    "large": 500000,
+                    "blockbuster": 800000
+                },
                 "complexity": 2,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "costume": 25
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "audience": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 3,
                     "alternatereality": 3,
                     "assassin": 1,
@@ -1090,29 +1267,45 @@
                     "wildwest": 2,
                     "witch": 1,
                     "zombie": 2,
-                    "artist": 3,
-                    "treasurehunt": 3,
+                    "artist": 1,
+                    "treasurehunt": 1,
                     "familyrelationships": 2,
-                    "breakup": 2,
-                    "religion": 2
+                    "breakup": 3,
+                    "religion": 3
                 }
             },
-            "period-wardrobe": {
+            "period-wardrobe":
+            {
                 "name-key": "period-wardrobe",
                 "set-id": "costumes-&-makeup",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "period-wardrobe"
                 ],
+                "cost":
+                {
+                    "small": 450000,
+                    "medium": 675000,
+                    "large": 1100000,
+                    "blockbuster": 1799999.9999999998
+                },
                 "complexity": 3,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "costume": 30
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "critics": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 0,
                     "alternatereality": 1,
                     "assassin": 1,
@@ -1179,29 +1372,45 @@
                     "wildwest": 2,
                     "witch": 3,
                     "zombie": 1,
-                    "artist": 3,
+                    "artist": 2,
                     "treasurehunt": 2,
                     "familyrelationships": 2,
-                    "breakup": 0,
-                    "religion": 1
+                    "breakup": 3,
+                    "religion": 3
                 }
             },
-            "high-fashion-wardrobe": {
+            "high-fashion-wardrobe":
+            {
                 "name-key": "high-fashion-wardrobe",
                 "set-id": "costumes-&-makeup",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "high-fashion-wardrobe"
                 ],
+                "cost":
+                {
+                    "small": 50000,
+                    "medium": 75000,
+                    "large": 125000,
+                    "blockbuster": 200000
+                },
                 "complexity": 1,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "costume": 20
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "critics": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 0,
                     "alternatereality": 1,
                     "assassin": 1,
@@ -1268,29 +1477,45 @@
                     "wildwest": 3,
                     "witch": 2,
                     "zombie": 0,
-                    "artist": 3,
-                    "treasurehunt": 1,
-                    "familyrelationships": 3,
+                    "artist": 2,
+                    "treasurehunt": 2,
+                    "familyrelationships": 0,
                     "breakup": 0,
-                    "religion": 1
+                    "religion": 0
                 }
             },
-            "gore-effects": {
+            "gore-effects":
+            {
                 "name-key": "gore-effects",
                 "set-id": "costumes-&-makeup",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "gore-effects"
                 ],
+                "cost":
+                {
+                    "small": 200000,
+                    "medium": 300000,
+                    "large": 500000,
+                    "blockbuster": 800000
+                },
                 "complexity": 2,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "costume": 25
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "audience": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 3,
                     "alternatereality": 1,
                     "assassin": 0,
@@ -1357,29 +1582,45 @@
                     "wildwest": 3,
                     "witch": 1,
                     "zombie": 3,
-                    "artist": 2,
-                    "treasurehunt": 3,
-                    "familyrelationships": 2,
+                    "artist": 1,
+                    "treasurehunt": 1,
+                    "familyrelationships": 1,
                     "breakup": 2,
-                    "religion": 3
+                    "religion": 0
                 }
             },
-            "creature-design": {
+            "creature-design":
+            {
                 "name-key": "creature-design",
                 "set-id": "costumes-&-makeup",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "creature-design"
                 ],
+                "cost":
+                {
+                    "small": 450000,
+                    "medium": 675000,
+                    "large": 1100000,
+                    "blockbuster": 1799999.9999999998
+                },
                 "complexity": 3,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "costume": 30
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "audience": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 3,
                     "alternatereality": 2,
                     "assassin": 0,
@@ -1446,29 +1687,45 @@
                     "wildwest": 3,
                     "witch": 1,
                     "zombie": 3,
-                    "artist": 3,
-                    "treasurehunt": 2,
+                    "artist": 1,
+                    "treasurehunt": 1,
                     "familyrelationships": 1,
-                    "breakup": 1,
-                    "religion": 0
+                    "breakup": 2,
+                    "religion": 3
                 }
             },
-            "set-armorer": {
+            "set-armorer":
+            {
                 "name-key": "set-armorer",
                 "set-id": "props",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "set-armorer"
                 ],
+                "cost":
+                {
+                    "small": 50000,
+                    "medium": 75000,
+                    "large": 125000,
+                    "blockbuster": 200000
+                },
                 "complexity": 1,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "costume": 20
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "critics": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 2,
                     "alternatereality": 1,
                     "assassin": 3,
@@ -1536,28 +1793,44 @@
                     "witch": 1,
                     "zombie": 2,
                     "artist": 1,
-                    "treasurehunt": 0,
-                    "familyrelationships": 2,
-                    "breakup": 0,
-                    "religion": 3
+                    "treasurehunt": 1,
+                    "familyrelationships": 0,
+                    "breakup": 3,
+                    "religion": 1
                 }
             },
-            "luxury-vehicles": {
+            "luxury-vehicles":
+            {
                 "name-key": "luxury-vehicles",
                 "set-id": "props",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "luxury-vehicles"
                 ],
+                "cost":
+                {
+                    "small": 450000,
+                    "medium": 675000,
+                    "large": 1100000,
+                    "blockbuster": 1799999.9999999998
+                },
                 "complexity": 3,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "costume": 30
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "audience": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 1,
                     "alternatereality": 1,
                     "assassin": 3,
@@ -1624,385 +1897,150 @@
                     "wildwest": 1,
                     "witch": 1,
                     "zombie": 2,
-                    "artist": 3,
-                    "treasurehunt": 0,
-                    "familyrelationships": 2,
-                    "breakup": 1,
-                    "religion": 0
-                }
-            },
-            "high-tech-gadgets": {
-                "name-key": "high-tech-gadgets",
-                "set-id": "props",
-                "tech-reqs": [
-                    "high-tech-gadgets"
-                ],
-                "complexity": 2,
-                "planning-reqs": {
-                    "costume": 25
-                },
-                "rating-affinity": {
-                    "pg": 1,
-                    "pg-13": 1,
-                    "r": 1
-                },
-                "theme-affinity": {
-                    "alien": 3,
-                    "alternatereality": 1,
-                    "assassin": 3,
-                    "business": 0,
-                    "cars": 3,
-                    "chase": 3,
-                    "christmas": 0,
-                    "college": 0,
-                    "comingofage": 0,
-                    "cyberpunk": 2,
-                    "dance": 0,
-                    "detective": 2,
-                    "dinosaurs": 3,
-                    "disaster": 3,
-                    "doctor": 0,
-                    "dog": 0,
-                    "dragon": 1,
-                    "drugs": 1,
-                    "dystopia": 3,
-                    "fbi": 2,
-                    "friendship": 1,
-                    "gangster": 3,
-                    "ghost": 0,
-                    "hacking": 1,
-                    "heist": 2,
-                    "highschool": 1,
-                    "hospital": 1,
-                    "infidelity": 0,
-                    "kidnapping": 2,
-                    "knight": 1,
-                    "magic": 2,
-                    "martialarts": 3,
-                    "military": 3,
-                    "monster": 2,
-                    "movies": 0,
-                    "murder": 2,
-                    "mythology": 1,
-                    "ninja": 3,
-                    "pirates": 1,
-                    "police": 3,
-                    "politics": 0,
-                    "postapocalyptic": 2,
-                    "prison": 2,
-                    "revenge": 3,
-                    "roadtrip": 1,
-                    "robot": 2,
-                    "serialkiller": 1,
-                    "smalltown": 0,
-                    "space": 1,
-                    "sports": 1,
-                    "spy": 3,
-                    "steampunk": 1,
-                    "supernatural": 3,
-                    "superhero": 1,
-                    "teenmovie": 0,
-                    "terrorist": 3,
-                    "timetravel": 2,
-                    "trial": 0,
-                    "vampire": 1,
-                    "videogame": 3,
-                    "war": 0,
-                    "wedding": 1,
-                    "werewolf": 2,
-                    "wildwest": 1,
-                    "witch": 1,
-                    "zombie": 2,
-                    "artist": 2,
-                    "treasurehunt": 3,
-                    "familyrelationships": 3,
-                    "breakup": 0,
-                    "religion": 3
-                }
-            },
-            "interactive-mechanisms": {
-                "name-key": "interactive-mechanisms",
-                "set-id": "props",
-                "tech-reqs": [
-                    "interactive-mechanisms"
-                ],
-                "complexity": 2,
-                "planning-reqs": {
-                    "costume": 25
-                },
-                "rating-affinity": {
-                    "pg": 1,
-                    "pg-13": 1,
-                    "r": 1
-                },
-                "theme-affinity": {
-                    "alien": 2,
-                    "alternatereality": 1,
-                    "assassin": 1,
-                    "business": 0,
-                    "cars": 1,
-                    "chase": 1,
-                    "christmas": 1,
-                    "college": 0,
-                    "comingofage": 1,
-                    "cyberpunk": 2,
-                    "dance": 0,
-                    "detective": 1,
-                    "dinosaurs": 2,
-                    "disaster": 1,
-                    "doctor": 0,
-                    "dog": 2,
-                    "dragon": 3,
-                    "drugs": 1,
-                    "dystopia": 3,
-                    "fbi": 0,
-                    "friendship": 2,
-                    "gangster": 1,
-                    "ghost": 0,
-                    "hacking": 0,
-                    "heist": 1,
-                    "highschool": 0,
-                    "hospital": 0,
-                    "infidelity": 0,
-                    "kidnapping": 1,
-                    "knight": 3,
-                    "magic": 3,
-                    "martialarts": 3,
-                    "military": 1,
-                    "monster": 3,
-                    "movies": 1,
-                    "murder": 1,
-                    "mythology": 3,
-                    "ninja": 2,
-                    "pirates": 3,
-                    "police": 1,
-                    "politics": 0,
-                    "postapocalyptic": 2,
-                    "prison": 1,
-                    "revenge": 1,
-                    "roadtrip": 3,
-                    "robot": 2,
-                    "serialkiller": 0,
-                    "smalltown": 1,
-                    "space": 3,
-                    "sports": 1,
-                    "spy": 3,
-                    "steampunk": 3,
-                    "supernatural": 3,
-                    "superhero": 1,
-                    "teenmovie": 0,
-                    "terrorist": 2,
-                    "timetravel": 3,
-                    "trial": 0,
-                    "vampire": 1,
-                    "videogame": 3,
-                    "war": 0,
-                    "wedding": 1,
-                    "werewolf": 3,
-                    "wildwest": 2,
-                    "witch": 1,
-                    "zombie": 1,
-                    "artist": 3,
-                    "treasurehunt": 0,
-                    "familyrelationships": 3,
-                    "breakup": 2,
-                    "religion": 2
-                }
-            },
-            "large-vehicles": {
-                "name-key": "large-vehicles",
-                "set-id": "props",
-                "tech-reqs": [
-                    "large-vehicles"
-                ],
-                "complexity": 5,
-                "planning-reqs": {
-                    "costume": 40
-                },
-                "rating-affinity": {
-                    "pg": 1,
-                    "pg-13": 1,
-                    "r": 1
-                },
-                "theme-affinity": {
-                    "alien": 3,
-                    "alternatereality": 1,
-                    "assassin": 3,
-                    "business": 0,
-                    "cars": 3,
-                    "chase": 3,
-                    "christmas": 0,
-                    "college": 0,
-                    "comingofage": 0,
-                    "cyberpunk": 2,
-                    "dance": 0,
-                    "detective": 2,
-                    "dinosaurs": 3,
-                    "disaster": 3,
-                    "doctor": 0,
-                    "dog": 0,
-                    "dragon": 1,
-                    "drugs": 1,
-                    "dystopia": 3,
-                    "fbi": 2,
-                    "friendship": 1,
-                    "gangster": 3,
-                    "ghost": 0,
-                    "hacking": 1,
-                    "heist": 2,
-                    "highschool": 1,
-                    "hospital": 1,
-                    "infidelity": 0,
-                    "kidnapping": 2,
-                    "knight": 1,
-                    "magic": 2,
-                    "martialarts": 3,
-                    "military": 3,
-                    "monster": 2,
-                    "movies": 0,
-                    "murder": 2,
-                    "mythology": 1,
-                    "ninja": 3,
-                    "pirates": 1,
-                    "police": 3,
-                    "politics": 0,
-                    "postapocalyptic": 2,
-                    "prison": 2,
-                    "revenge": 3,
-                    "roadtrip": 1,
-                    "robot": 2,
-                    "serialkiller": 1,
-                    "smalltown": 0,
-                    "space": 1,
-                    "sports": 1,
-                    "spy": 3,
-                    "steampunk": 1,
-                    "supernatural": 3,
-                    "superhero": 1,
-                    "teenmovie": 0,
-                    "terrorist": 3,
-                    "timetravel": 2,
-                    "trial": 0,
-                    "vampire": 1,
-                    "videogame": 3,
-                    "war": 0,
-                    "wedding": 1,
-                    "werewolf": 2,
-                    "wildwest": 1,
-                    "witch": 1,
-                    "zombie": 2,
-                    "artist": 0,
-                    "treasurehunt": 0,
+                    "artist": 1,
+                    "treasurehunt": 1,
                     "familyrelationships": 0,
-                    "breakup": 1,
-                    "religion": 3
-                }
-            },
-            "large-studio-sets": {
-                "name-key": "large-studio-sets",
-                "set-id": "location",
-                "tech-reqs": [
-                    "large-studio-sets"
-                ],
-                "complexity": 4,
-                "planning-reqs": {
-                    "setdesign": 35
-                },
-                "rating-affinity": {
-                    "pg": 1,
-                    "pg-13": 1,
-                    "r": 1
-                },
-                "theme-affinity": {
-                    "alien": 2,
-                    "alternatereality": 1,
-                    "assassin": 1,
-                    "business": 0,
-                    "cars": 1,
-                    "chase": 1,
-                    "christmas": 1,
-                    "college": 0,
-                    "comingofage": 1,
-                    "cyberpunk": 2,
-                    "dance": 0,
-                    "detective": 1,
-                    "dinosaurs": 2,
-                    "disaster": 1,
-                    "doctor": 0,
-                    "dog": 2,
-                    "dragon": 3,
-                    "drugs": 1,
-                    "dystopia": 3,
-                    "fbi": 0,
-                    "friendship": 2,
-                    "gangster": 1,
-                    "ghost": 0,
-                    "hacking": 0,
-                    "heist": 1,
-                    "highschool": 0,
-                    "hospital": 0,
-                    "infidelity": 0,
-                    "kidnapping": 1,
-                    "knight": 3,
-                    "magic": 3,
-                    "martialarts": 3,
-                    "military": 1,
-                    "monster": 3,
-                    "movies": 1,
-                    "murder": 1,
-                    "mythology": 3,
-                    "ninja": 2,
-                    "pirates": 3,
-                    "police": 1,
-                    "politics": 0,
-                    "postapocalyptic": 2,
-                    "prison": 1,
-                    "revenge": 1,
-                    "roadtrip": 3,
-                    "robot": 2,
-                    "serialkiller": 0,
-                    "smalltown": 1,
-                    "space": 3,
-                    "sports": 1,
-                    "spy": 3,
-                    "steampunk": 3,
-                    "supernatural": 3,
-                    "superhero": 1,
-                    "teenmovie": 0,
-                    "terrorist": 2,
-                    "timetravel": 3,
-                    "trial": 0,
-                    "vampire": 1,
-                    "videogame": 3,
-                    "war": 0,
-                    "wedding": 1,
-                    "werewolf": 3,
-                    "wildwest": 2,
-                    "witch": 1,
-                    "zombie": 1,
-                    "artist": 2,
-                    "treasurehunt": 3,
-                    "familyrelationships": 0,
-                    "breakup": 1,
+                    "breakup": 3,
                     "religion": 1
                 }
             },
-            "on-location": {
-                "name-key": "on-location",
-                "set-id": "location",
-                "tech-reqs": [
-                    "on-location"
+            "high-tech-gadgets":
+            {
+                "name-key": "high-tech-gadgets",
+                "set-id": "props",
+                "tech-reqs":
+                [
+                    "high-tech-gadgets"
                 ],
-                "complexity": 5,
-                "planning-reqs": {
-                    "setdesign": 40
+                "cost":
+                {
+                    "small": 200000,
+                    "medium": 300000,
+                    "large": 500000,
+                    "blockbuster": 800000
                 },
-                "rating-affinity": {
+                "complexity": 2,
+                "planning-reqs":
+                {
+                    "costume": 25
+                },
+                "score-reqs":
+                {
+                    "audience": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
+                    "alien": 3,
+                    "alternatereality": 1,
+                    "assassin": 3,
+                    "business": 0,
+                    "cars": 3,
+                    "chase": 3,
+                    "christmas": 0,
+                    "college": 0,
+                    "comingofage": 0,
+                    "cyberpunk": 2,
+                    "dance": 0,
+                    "detective": 2,
+                    "dinosaurs": 3,
+                    "disaster": 3,
+                    "doctor": 0,
+                    "dog": 0,
+                    "dragon": 1,
+                    "drugs": 1,
+                    "dystopia": 3,
+                    "fbi": 2,
+                    "friendship": 1,
+                    "gangster": 3,
+                    "ghost": 0,
+                    "hacking": 1,
+                    "heist": 2,
+                    "highschool": 1,
+                    "hospital": 1,
+                    "infidelity": 0,
+                    "kidnapping": 2,
+                    "knight": 1,
+                    "magic": 2,
+                    "martialarts": 3,
+                    "military": 3,
+                    "monster": 2,
+                    "movies": 0,
+                    "murder": 2,
+                    "mythology": 1,
+                    "ninja": 3,
+                    "pirates": 1,
+                    "police": 3,
+                    "politics": 0,
+                    "postapocalyptic": 2,
+                    "prison": 2,
+                    "revenge": 3,
+                    "roadtrip": 1,
+                    "robot": 2,
+                    "serialkiller": 1,
+                    "smalltown": 0,
+                    "space": 1,
+                    "sports": 1,
+                    "spy": 3,
+                    "steampunk": 1,
+                    "supernatural": 3,
+                    "superhero": 1,
+                    "teenmovie": 0,
+                    "terrorist": 3,
+                    "timetravel": 2,
+                    "trial": 0,
+                    "vampire": 1,
+                    "videogame": 3,
+                    "war": 0,
+                    "wedding": 1,
+                    "werewolf": 2,
+                    "wildwest": 1,
+                    "witch": 1,
+                    "zombie": 2,
+                    "artist": 1,
+                    "treasurehunt": 1,
+                    "familyrelationships": 0,
+                    "breakup": 3,
+                    "religion": 1
+                }
+            },
+            "interactive-mechanisms":
+            {
+                "name-key": "interactive-mechanisms",
+                "set-id": "props",
+                "tech-reqs":
+                [
+                    "interactive-mechanisms"
+                ],
+                "cost":
+                {
+                    "small": 200000,
+                    "medium": 300000,
+                    "large": 500000,
+                    "blockbuster": 800000
+                },
+                "complexity": 2,
+                "planning-reqs":
+                {
+                    "costume": 25
+                },
+                "score-reqs":
+                {
+                    "critics": 7
+                },
+                "rating-affinity":
+                {
+                    "pg": 1,
+                    "pg-13": 1,
+                    "r": 1
+                },
+                "theme-affinity":
+                {
                     "alien": 2,
                     "alternatereality": 1,
                     "assassin": 1,
@@ -2069,29 +2107,360 @@
                     "wildwest": 2,
                     "witch": 1,
                     "zombie": 1,
-                    "artist": 0,
-                    "treasurehunt": 0,
+                    "artist": 1,
+                    "treasurehunt": 1,
                     "familyrelationships": 2,
                     "breakup": 3,
-                    "religion": 2
+                    "religion": 3
                 }
             },
-            "cultural-landmarks": {
-                "name-key": "cultural-landmarks",
-                "set-id": "location",
-                "tech-reqs": [
-                    "cultural-landmarks"
+            "large-vehicles":
+            {
+                "name-key": "large-vehicles",
+                "set-id": "props",
+                "tech-reqs":
+                [
+                    "large-vehicles"
                 ],
-                "complexity": 4,
-                "planning-reqs": {
-                    "setdesign": 35
+                "cost":
+                {
+                    "small": 1300000,
+                    "medium": 1899999.9999999998,
+                    "large": 3099999.9999999995,
+                    "blockbuster": 5000000
                 },
-                "rating-affinity": {
+                "complexity": 5,
+                "planning-reqs":
+                {
+                    "costume": 40
+                },
+                "score-reqs":
+                {
+                    "audience": 8
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
+                    "alien": 3,
+                    "alternatereality": 1,
+                    "assassin": 3,
+                    "business": 0,
+                    "cars": 3,
+                    "chase": 3,
+                    "christmas": 0,
+                    "college": 0,
+                    "comingofage": 0,
+                    "cyberpunk": 2,
+                    "dance": 0,
+                    "detective": 2,
+                    "dinosaurs": 3,
+                    "disaster": 3,
+                    "doctor": 0,
+                    "dog": 0,
+                    "dragon": 1,
+                    "drugs": 1,
+                    "dystopia": 3,
+                    "fbi": 2,
+                    "friendship": 1,
+                    "gangster": 3,
+                    "ghost": 0,
+                    "hacking": 1,
+                    "heist": 2,
+                    "highschool": 1,
+                    "hospital": 1,
+                    "infidelity": 0,
+                    "kidnapping": 2,
+                    "knight": 1,
+                    "magic": 2,
+                    "martialarts": 3,
+                    "military": 3,
+                    "monster": 2,
+                    "movies": 0,
+                    "murder": 2,
+                    "mythology": 1,
+                    "ninja": 3,
+                    "pirates": 1,
+                    "police": 3,
+                    "politics": 0,
+                    "postapocalyptic": 2,
+                    "prison": 2,
+                    "revenge": 3,
+                    "roadtrip": 1,
+                    "robot": 2,
+                    "serialkiller": 1,
+                    "smalltown": 0,
+                    "space": 1,
+                    "sports": 1,
+                    "spy": 3,
+                    "steampunk": 1,
+                    "supernatural": 3,
+                    "superhero": 1,
+                    "teenmovie": 0,
+                    "terrorist": 3,
+                    "timetravel": 2,
+                    "trial": 0,
+                    "vampire": 1,
+                    "videogame": 3,
+                    "war": 0,
+                    "wedding": 1,
+                    "werewolf": 2,
+                    "wildwest": 1,
+                    "witch": 1,
+                    "zombie": 2,
+                    "artist": 1,
+                    "treasurehunt": 1,
+                    "familyrelationships": 0,
+                    "breakup": 3,
+                    "religion": 1
+                }
+            },
+            "large-studio-sets":
+            {
+                "name-key": "large-studio-sets",
+                "set-id": "location",
+                "tech-reqs":
+                [
+                    "large-studio-sets"
+                ],
+                "cost":
+                {
+                    "small": 800000,
+                    "medium": 1200000,
+                    "large": 1999999.9999999998,
+                    "blockbuster": 3199999.9999999995
+                },
+                "complexity": 4,
+                "planning-reqs":
+                {
+                    "setdesign": 35
+                },
+                "score-reqs":
+                {
+                    "audience": 8
+                },
+                "rating-affinity":
+                {
+                    "pg": 1,
+                    "pg-13": 1,
+                    "r": 1
+                },
+                "theme-affinity":
+                {
+                    "alien": 2,
+                    "alternatereality": 1,
+                    "assassin": 1,
+                    "business": 0,
+                    "cars": 1,
+                    "chase": 1,
+                    "christmas": 1,
+                    "college": 0,
+                    "comingofage": 1,
+                    "cyberpunk": 2,
+                    "dance": 0,
+                    "detective": 1,
+                    "dinosaurs": 2,
+                    "disaster": 1,
+                    "doctor": 0,
+                    "dog": 2,
+                    "dragon": 3,
+                    "drugs": 1,
+                    "dystopia": 3,
+                    "fbi": 0,
+                    "friendship": 2,
+                    "gangster": 1,
+                    "ghost": 0,
+                    "hacking": 0,
+                    "heist": 1,
+                    "highschool": 0,
+                    "hospital": 0,
+                    "infidelity": 0,
+                    "kidnapping": 1,
+                    "knight": 3,
+                    "magic": 3,
+                    "martialarts": 3,
+                    "military": 1,
+                    "monster": 3,
+                    "movies": 1,
+                    "murder": 1,
+                    "mythology": 3,
+                    "ninja": 2,
+                    "pirates": 3,
+                    "police": 1,
+                    "politics": 0,
+                    "postapocalyptic": 2,
+                    "prison": 1,
+                    "revenge": 1,
+                    "roadtrip": 3,
+                    "robot": 2,
+                    "serialkiller": 0,
+                    "smalltown": 1,
+                    "space": 3,
+                    "sports": 1,
+                    "spy": 3,
+                    "steampunk": 3,
+                    "supernatural": 3,
+                    "superhero": 1,
+                    "teenmovie": 0,
+                    "terrorist": 2,
+                    "timetravel": 3,
+                    "trial": 0,
+                    "vampire": 1,
+                    "videogame": 3,
+                    "war": 0,
+                    "wedding": 1,
+                    "werewolf": 3,
+                    "wildwest": 2,
+                    "witch": 1,
+                    "zombie": 1,
+                    "artist": 1,
+                    "treasurehunt": 1,
+                    "familyrelationships": 2,
+                    "breakup": 3,
+                    "religion": 3
+                }
+            },
+            "on-location":
+            {
+                "name-key": "on-location",
+                "set-id": "location",
+                "tech-reqs":
+                [
+                    "on-location"
+                ],
+                "cost":
+                {
+                    "small": 1300000,
+                    "medium": 1899999.9999999998,
+                    "large": 3099999.9999999995,
+                    "blockbuster": 5000000
+                },
+                "complexity": 5,
+                "planning-reqs":
+                {
+                    "setdesign": 40
+                },
+                "score-reqs":
+                {
+                    "audience": 8
+                },
+                "rating-affinity":
+                {
+                    "pg": 1,
+                    "pg-13": 1,
+                    "r": 1
+                },
+                "theme-affinity":
+                {
+                    "alien": 2,
+                    "alternatereality": 1,
+                    "assassin": 1,
+                    "business": 0,
+                    "cars": 1,
+                    "chase": 1,
+                    "christmas": 1,
+                    "college": 0,
+                    "comingofage": 1,
+                    "cyberpunk": 2,
+                    "dance": 0,
+                    "detective": 1,
+                    "dinosaurs": 2,
+                    "disaster": 1,
+                    "doctor": 0,
+                    "dog": 2,
+                    "dragon": 3,
+                    "drugs": 1,
+                    "dystopia": 3,
+                    "fbi": 0,
+                    "friendship": 2,
+                    "gangster": 1,
+                    "ghost": 0,
+                    "hacking": 0,
+                    "heist": 1,
+                    "highschool": 0,
+                    "hospital": 0,
+                    "infidelity": 0,
+                    "kidnapping": 1,
+                    "knight": 3,
+                    "magic": 3,
+                    "martialarts": 3,
+                    "military": 1,
+                    "monster": 3,
+                    "movies": 1,
+                    "murder": 1,
+                    "mythology": 3,
+                    "ninja": 2,
+                    "pirates": 3,
+                    "police": 1,
+                    "politics": 0,
+                    "postapocalyptic": 2,
+                    "prison": 1,
+                    "revenge": 1,
+                    "roadtrip": 3,
+                    "robot": 2,
+                    "serialkiller": 0,
+                    "smalltown": 1,
+                    "space": 3,
+                    "sports": 1,
+                    "spy": 3,
+                    "steampunk": 3,
+                    "supernatural": 3,
+                    "superhero": 1,
+                    "teenmovie": 0,
+                    "terrorist": 2,
+                    "timetravel": 3,
+                    "trial": 0,
+                    "vampire": 1,
+                    "videogame": 3,
+                    "war": 0,
+                    "wedding": 1,
+                    "werewolf": 3,
+                    "wildwest": 2,
+                    "witch": 1,
+                    "zombie": 1,
+                    "artist": 1,
+                    "treasurehunt": 1,
+                    "familyrelationships": 2,
+                    "breakup": 3,
+                    "religion": 3
+                }
+            },
+            "cultural-landmarks":
+            {
+                "name-key": "cultural-landmarks",
+                "set-id": "location",
+                "tech-reqs":
+                [
+                    "cultural-landmarks"
+                ],
+                "cost":
+                {
+                    "small": 800000,
+                    "medium": 1200000,
+                    "large": 1999999.9999999998,
+                    "blockbuster": 3199999.9999999995
+                },
+                "complexity": 4,
+                "planning-reqs":
+                {
+                    "setdesign": 35
+                },
+                "score-reqs":
+                {
+                    "critics": 8
+                },
+                "rating-affinity":
+                {
+                    "pg": 1,
+                    "pg-13": 1,
+                    "r": 1
+                },
+                "theme-affinity":
+                {
                     "alien": 1,
                     "alternatereality": 0,
                     "assassin": 0,
@@ -2158,29 +2527,45 @@
                     "wildwest": 0,
                     "witch": 3,
                     "zombie": 0,
-                    "artist": 3,
-                    "treasurehunt": 3,
-                    "familyrelationships": 3,
+                    "artist": 2,
+                    "treasurehunt": 2,
+                    "familyrelationships": 1,
                     "breakup": 0,
-                    "religion": 1
+                    "religion": 0
                 }
             },
-            "outdoor-builds": {
+            "outdoor-builds":
+            {
                 "name-key": "outdoor-builds",
                 "set-id": "location",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "outdoor-builds"
                 ],
+                "cost":
+                {
+                    "small": 450000,
+                    "medium": 675000,
+                    "large": 1100000,
+                    "blockbuster": 1799999.9999999998
+                },
                 "complexity": 3,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "setdesign": 30
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "critics": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 3,
                     "alternatereality": 3,
                     "assassin": 1,
@@ -2247,29 +2632,45 @@
                     "wildwest": 2,
                     "witch": 1,
                     "zombie": 2,
-                    "artist": 2,
-                    "treasurehunt": 2,
-                    "familyrelationships": 3,
-                    "breakup": 2,
-                    "religion": 0
+                    "artist": 1,
+                    "treasurehunt": 1,
+                    "familyrelationships": 2,
+                    "breakup": 3,
+                    "religion": 3
                 }
             },
-            "restricted-access-areas": {
+            "restricted-access-areas":
+            {
                 "name-key": "restricted-access-areas",
                 "set-id": "location",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "restricted-access-areas"
                 ],
+                "cost":
+                {
+                    "small": 450000,
+                    "medium": 675000,
+                    "large": 1100000,
+                    "blockbuster": 1799999.9999999998
+                },
                 "complexity": 3,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "setdesign": 30
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "critics": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 0,
                     "alternatereality": 2,
                     "assassin": 2,
@@ -2337,28 +2738,44 @@
                     "witch": 1,
                     "zombie": 1,
                     "artist": 2,
-                    "treasurehunt": 1,
-                    "familyrelationships": 2,
-                    "breakup": 0,
-                    "religion": 1
+                    "treasurehunt": 2,
+                    "familyrelationships": 0,
+                    "breakup": 2,
+                    "religion": 0
                 }
             },
-            "natural-light-shooting": {
+            "natural-light-shooting":
+            {
                 "name-key": "natural-light-shooting",
                 "set-id": "lights-&-decor",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "natural-light-shooting"
                 ],
+                "cost":
+                {
+                    "small": 50000,
+                    "medium": 75000,
+                    "large": 125000,
+                    "blockbuster": 200000
+                },
                 "complexity": 1,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "setdesign": 20
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "audience": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 2,
                     "alternatereality": 1,
                     "assassin": 1,
@@ -2425,29 +2842,45 @@
                     "wildwest": 2,
                     "witch": 1,
                     "zombie": 1,
-                    "artist": 3,
-                    "treasurehunt": 2,
-                    "familyrelationships": 1,
+                    "artist": 1,
+                    "treasurehunt": 1,
+                    "familyrelationships": 2,
                     "breakup": 3,
-                    "religion": 0
+                    "religion": 3
                 }
             },
-            "golden-hour-shooting": {
+            "golden-hour-shooting":
+            {
                 "name-key": "golden-hour-shooting",
                 "set-id": "lights-&-decor",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "golden-hour-shooting"
                 ],
+                "cost":
+                {
+                    "small": 200000,
+                    "medium": 300000,
+                    "large": 500000,
+                    "blockbuster": 800000
+                },
                 "complexity": 2,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "setdesign": 25
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "critics": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 2,
                     "alternatereality": 2,
                     "assassin": 1,
@@ -2514,29 +2947,45 @@
                     "wildwest": 3,
                     "witch": 1,
                     "zombie": 2,
-                    "artist": 3,
+                    "artist": 1,
                     "treasurehunt": 1,
-                    "familyrelationships": 1,
+                    "familyrelationships": 2,
                     "breakup": 3,
-                    "religion": 0
+                    "religion": 3
                 }
             },
-            "thematic-furniture": {
+            "thematic-furniture":
+            {
                 "name-key": "thematic-furniture",
                 "set-id": "lights-&-decor",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "thematic-furniture"
                 ],
+                "cost":
+                {
+                    "small": 200000,
+                    "medium": 300000,
+                    "large": 500000,
+                    "blockbuster": 800000
+                },
                 "complexity": 2,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "setdesign": 25
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "critics": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 1,
                     "alternatereality": 0,
                     "assassin": 0,
@@ -2604,28 +3053,44 @@
                     "witch": 3,
                     "zombie": 0,
                     "artist": 2,
-                    "treasurehunt": 3,
+                    "treasurehunt": 2,
                     "familyrelationships": 1,
-                    "breakup": 3,
-                    "religion": 3
+                    "breakup": 0,
+                    "religion": 0
                 }
             },
-            "breakable-set": {
+            "breakable-set":
+            {
                 "name-key": "breakable-set",
                 "set-id": "lights-&-decor",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "breakable-set"
                 ],
+                "cost":
+                {
+                    "small": 50000,
+                    "medium": 75000,
+                    "large": 125000,
+                    "blockbuster": 200000
+                },
                 "complexity": 1,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "setdesign": 20
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "audience": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 3,
                     "alternatereality": 1,
                     "assassin": 3,
@@ -2692,29 +3157,45 @@
                     "wildwest": 1,
                     "witch": 1,
                     "zombie": 2,
-                    "artist": 2,
+                    "artist": 1,
                     "treasurehunt": 1,
-                    "familyrelationships": 2,
+                    "familyrelationships": 0,
                     "breakup": 3,
-                    "religion": 0
+                    "religion": 1
                 }
             },
-            "atmospheric-effects": {
+            "atmospheric-effects":
+            {
                 "name-key": "atmospheric-effects",
                 "set-id": "lights-&-decor",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "atmospheric-effects"
                 ],
+                "cost":
+                {
+                    "small": 200000,
+                    "medium": 300000,
+                    "large": 500000,
+                    "blockbuster": 800000
+                },
                 "complexity": 2,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "setdesign": 25
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "audience": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 1,
                     "alternatereality": 1,
                     "assassin": 1,
@@ -2784,204 +3265,42 @@
                     "artist": 2,
                     "treasurehunt": 2,
                     "familyrelationships": 2,
-                    "breakup": 3,
-                    "religion": 1
+                    "breakup": 1,
+                    "religion": 0
                 }
             },
-            "extreme-stunts": {
+            "extreme-stunts":
+            {
                 "name-key": "extreme-stunts",
                 "set-id": "stunts",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "extreme-stunts"
                 ],
+                "cost":
+                {
+                    "small": 450000,
+                    "medium": 675000,
+                    "large": 1100000,
+                    "blockbuster": 1799999.9999999998
+                },
                 "complexity": 3,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "specialeffect": 30
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "audience": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
-                    "alien": 3,
-                    "alternatereality": 1,
-                    "assassin": 3,
-                    "business": 0,
-                    "cars": 3,
-                    "chase": 3,
-                    "christmas": 0,
-                    "college": 0,
-                    "comingofage": 0,
-                    "cyberpunk": 2,
-                    "dance": 0,
-                    "detective": 2,
-                    "dinosaurs": 3,
-                    "disaster": 3,
-                    "doctor": 0,
-                    "dog": 0,
-                    "dragon": 1,
-                    "drugs": 1,
-                    "dystopia": 3,
-                    "fbi": 2,
-                    "friendship": 1,
-                    "gangster": 3,
-                    "ghost": 0,
-                    "hacking": 1,
-                    "heist": 2,
-                    "highschool": 1,
-                    "hospital": 1,
-                    "infidelity": 0,
-                    "kidnapping": 2,
-                    "knight": 1,
-                    "magic": 2,
-                    "martialarts": 3,
-                    "military": 3,
-                    "monster": 2,
-                    "movies": 0,
-                    "murder": 2,
-                    "mythology": 1,
-                    "ninja": 3,
-                    "pirates": 1,
-                    "police": 3,
-                    "politics": 0,
-                    "postapocalyptic": 2,
-                    "prison": 2,
-                    "revenge": 3,
-                    "roadtrip": 1,
-                    "robot": 2,
-                    "serialkiller": 1,
-                    "smalltown": 0,
-                    "space": 1,
-                    "sports": 1,
-                    "spy": 3,
-                    "steampunk": 1,
-                    "supernatural": 3,
-                    "superhero": 1,
-                    "teenmovie": 0,
-                    "terrorist": 3,
-                    "timetravel": 2,
-                    "trial": 0,
-                    "vampire": 1,
-                    "videogame": 3,
-                    "war": 0,
-                    "wedding": 1,
-                    "werewolf": 2,
-                    "wildwest": 1,
-                    "witch": 1,
-                    "zombie": 2,
-                    "artist": 2,
-                    "treasurehunt": 0,
-                    "familyrelationships": 0,
-                    "breakup": 0,
-                    "religion": 2
-                }
-            },
-            "fight-choreography": {
-                "name-key": "fight-choreography",
-                "set-id": "stunts",
-                "tech-reqs": [
-                    "fight-choreography"
-                ],
-                "complexity": 1,
-                "planning-reqs": {
-                    "specialeffect": 20
-                },
-                "rating-affinity": {
-                    "pg": 1,
-                    "pg-13": 1,
-                    "r": 1
-                },
-                "theme-affinity": {
-                    "alien": 3,
-                    "alternatereality": 1,
-                    "assassin": 3,
-                    "business": 0,
-                    "cars": 3,
-                    "chase": 3,
-                    "christmas": 0,
-                    "college": 0,
-                    "comingofage": 0,
-                    "cyberpunk": 2,
-                    "dance": 0,
-                    "detective": 2,
-                    "dinosaurs": 3,
-                    "disaster": 3,
-                    "doctor": 0,
-                    "dog": 0,
-                    "dragon": 1,
-                    "drugs": 1,
-                    "dystopia": 3,
-                    "fbi": 2,
-                    "friendship": 1,
-                    "gangster": 3,
-                    "ghost": 0,
-                    "hacking": 1,
-                    "heist": 2,
-                    "highschool": 1,
-                    "hospital": 1,
-                    "infidelity": 0,
-                    "kidnapping": 2,
-                    "knight": 1,
-                    "magic": 2,
-                    "martialarts": 3,
-                    "military": 3,
-                    "monster": 2,
-                    "movies": 0,
-                    "murder": 2,
-                    "mythology": 1,
-                    "ninja": 3,
-                    "pirates": 1,
-                    "police": 3,
-                    "politics": 0,
-                    "postapocalyptic": 2,
-                    "prison": 2,
-                    "revenge": 3,
-                    "roadtrip": 1,
-                    "robot": 2,
-                    "serialkiller": 1,
-                    "smalltown": 0,
-                    "space": 1,
-                    "sports": 1,
-                    "spy": 3,
-                    "steampunk": 1,
-                    "supernatural": 3,
-                    "superhero": 1,
-                    "teenmovie": 0,
-                    "terrorist": 3,
-                    "timetravel": 2,
-                    "trial": 0,
-                    "vampire": 1,
-                    "videogame": 3,
-                    "war": 0,
-                    "wedding": 1,
-                    "werewolf": 2,
-                    "wildwest": 1,
-                    "witch": 1,
-                    "zombie": 2,
-                    "artist": 2,
-                    "treasurehunt": 2,
-                    "familyrelationships": 0,
-                    "breakup": 3,
-                    "religion": 3
-                }
-            },
-            "motorized-stunts": {
-                "name-key": "motorized-stunts",
-                "set-id": "stunts",
-                "tech-reqs": [
-                    "motorized-stunts"
-                ],
-                "complexity": 5,
-                "planning-reqs": {
-                    "specialeffect": 40
-                },
-                "rating-affinity": {
-                    "pg": 1,
-                    "pg-13": 1,
-                    "r": 1
-                },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 3,
                     "alternatereality": 1,
                     "assassin": 3,
@@ -3051,26 +3370,252 @@
                     "artist": 1,
                     "treasurehunt": 1,
                     "familyrelationships": 0,
-                    "breakup": 1,
-                    "religion": 3
+                    "breakup": 3,
+                    "religion": 1
                 }
             },
-            "parkour": {
+            "fight-choreography":
+            {
+                "name-key": "fight-choreography",
+                "set-id": "stunts",
+                "tech-reqs":
+                [
+                    "fight-choreography"
+                ],
+                "cost":
+                {
+                    "small": 50000,
+                    "medium": 75000,
+                    "large": 125000,
+                    "blockbuster": 200000
+                },
+                "complexity": 1,
+                "planning-reqs":
+                {
+                    "specialeffect": 20
+                },
+                "score-reqs":
+                {
+                    "critics": 7
+                },
+                "rating-affinity":
+                {
+                    "pg": 1,
+                    "pg-13": 1,
+                    "r": 1
+                },
+                "theme-affinity":
+                {
+                    "alien": 3,
+                    "alternatereality": 1,
+                    "assassin": 3,
+                    "business": 0,
+                    "cars": 3,
+                    "chase": 3,
+                    "christmas": 0,
+                    "college": 0,
+                    "comingofage": 0,
+                    "cyberpunk": 2,
+                    "dance": 0,
+                    "detective": 2,
+                    "dinosaurs": 3,
+                    "disaster": 3,
+                    "doctor": 0,
+                    "dog": 0,
+                    "dragon": 1,
+                    "drugs": 1,
+                    "dystopia": 3,
+                    "fbi": 2,
+                    "friendship": 1,
+                    "gangster": 3,
+                    "ghost": 0,
+                    "hacking": 1,
+                    "heist": 2,
+                    "highschool": 1,
+                    "hospital": 1,
+                    "infidelity": 0,
+                    "kidnapping": 2,
+                    "knight": 1,
+                    "magic": 2,
+                    "martialarts": 3,
+                    "military": 3,
+                    "monster": 2,
+                    "movies": 0,
+                    "murder": 2,
+                    "mythology": 1,
+                    "ninja": 3,
+                    "pirates": 1,
+                    "police": 3,
+                    "politics": 0,
+                    "postapocalyptic": 2,
+                    "prison": 2,
+                    "revenge": 3,
+                    "roadtrip": 1,
+                    "robot": 2,
+                    "serialkiller": 1,
+                    "smalltown": 0,
+                    "space": 1,
+                    "sports": 1,
+                    "spy": 3,
+                    "steampunk": 1,
+                    "supernatural": 3,
+                    "superhero": 1,
+                    "teenmovie": 0,
+                    "terrorist": 3,
+                    "timetravel": 2,
+                    "trial": 0,
+                    "vampire": 1,
+                    "videogame": 3,
+                    "war": 0,
+                    "wedding": 1,
+                    "werewolf": 2,
+                    "wildwest": 1,
+                    "witch": 1,
+                    "zombie": 2,
+                    "artist": 1,
+                    "treasurehunt": 1,
+                    "familyrelationships": 0,
+                    "breakup": 3,
+                    "religion": 1
+                }
+            },
+            "motorized-stunts":
+            {
+                "name-key": "motorized-stunts",
+                "set-id": "stunts",
+                "tech-reqs":
+                [
+                    "motorized-stunts"
+                ],
+                "cost":
+                {
+                    "small": 1300000,
+                    "medium": 1899999.9999999998,
+                    "large": 3099999.9999999995,
+                    "blockbuster": 5000000
+                },
+                "complexity": 5,
+                "planning-reqs":
+                {
+                    "specialeffect": 40
+                },
+                "score-reqs":
+                {
+                    "audience": 8
+                },
+                "rating-affinity":
+                {
+                    "pg": 1,
+                    "pg-13": 1,
+                    "r": 1
+                },
+                "theme-affinity":
+                {
+                    "alien": 3,
+                    "alternatereality": 1,
+                    "assassin": 3,
+                    "business": 0,
+                    "cars": 3,
+                    "chase": 3,
+                    "christmas": 0,
+                    "college": 0,
+                    "comingofage": 0,
+                    "cyberpunk": 2,
+                    "dance": 0,
+                    "detective": 2,
+                    "dinosaurs": 3,
+                    "disaster": 3,
+                    "doctor": 0,
+                    "dog": 0,
+                    "dragon": 1,
+                    "drugs": 1,
+                    "dystopia": 3,
+                    "fbi": 2,
+                    "friendship": 1,
+                    "gangster": 3,
+                    "ghost": 0,
+                    "hacking": 1,
+                    "heist": 2,
+                    "highschool": 1,
+                    "hospital": 1,
+                    "infidelity": 0,
+                    "kidnapping": 2,
+                    "knight": 1,
+                    "magic": 2,
+                    "martialarts": 3,
+                    "military": 3,
+                    "monster": 2,
+                    "movies": 0,
+                    "murder": 2,
+                    "mythology": 1,
+                    "ninja": 3,
+                    "pirates": 1,
+                    "police": 3,
+                    "politics": 0,
+                    "postapocalyptic": 2,
+                    "prison": 2,
+                    "revenge": 3,
+                    "roadtrip": 1,
+                    "robot": 2,
+                    "serialkiller": 1,
+                    "smalltown": 0,
+                    "space": 1,
+                    "sports": 1,
+                    "spy": 3,
+                    "steampunk": 1,
+                    "supernatural": 3,
+                    "superhero": 1,
+                    "teenmovie": 0,
+                    "terrorist": 3,
+                    "timetravel": 2,
+                    "trial": 0,
+                    "vampire": 1,
+                    "videogame": 3,
+                    "war": 0,
+                    "wedding": 1,
+                    "werewolf": 2,
+                    "wildwest": 1,
+                    "witch": 1,
+                    "zombie": 2,
+                    "artist": 1,
+                    "treasurehunt": 1,
+                    "familyrelationships": 0,
+                    "breakup": 3,
+                    "religion": 1
+                }
+            },
+            "parkour":
+            {
                 "name-key": "parkour",
                 "set-id": "stunts",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "parkour"
                 ],
+                "cost":
+                {
+                    "small": 450000,
+                    "medium": 675000,
+                    "large": 1100000,
+                    "blockbuster": 1799999.9999999998
+                },
                 "complexity": 3,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "specialeffect": 30
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "audience": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 3,
                     "alternatereality": 1,
                     "assassin": 3,
@@ -3137,29 +3682,45 @@
                     "wildwest": 1,
                     "witch": 1,
                     "zombie": 2,
-                    "artist": 3,
-                    "treasurehunt": 3,
-                    "familyrelationships": 1,
-                    "breakup": 0,
-                    "religion": 0
+                    "artist": 1,
+                    "treasurehunt": 1,
+                    "familyrelationships": 0,
+                    "breakup": 3,
+                    "religion": 1
                 }
             },
-            "wire-work": {
+            "wire-work":
+            {
                 "name-key": "wire-work",
                 "set-id": "stunts",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "wire-work"
                 ],
+                "cost":
+                {
+                    "small": 200000,
+                    "medium": 300000,
+                    "large": 500000,
+                    "blockbuster": 800000
+                },
                 "complexity": 2,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "specialeffect": 25
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "critics": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 3,
                     "alternatereality": 1,
                     "assassin": 3,
@@ -3226,29 +3787,45 @@
                     "wildwest": 1,
                     "witch": 1,
                     "zombie": 2,
-                    "artist": 2,
+                    "artist": 1,
                     "treasurehunt": 1,
-                    "familyrelationships": 3,
-                    "breakup": 2,
-                    "religion": 0
+                    "familyrelationships": 0,
+                    "breakup": 3,
+                    "religion": 1
                 }
             },
-            "demolition-experts": {
+            "demolition-experts":
+            {
                 "name-key": "demolition-experts",
                 "set-id": "visual-effect",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "demolition-experts"
                 ],
+                "cost":
+                {
+                    "small": 800000,
+                    "medium": 1200000,
+                    "large": 1999999.9999999998,
+                    "blockbuster": 3199999.9999999995
+                },
                 "complexity": 4,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "specialeffect": 35
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "audience": 8
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 3,
                     "alternatereality": 1,
                     "assassin": 3,
@@ -3315,29 +3892,45 @@
                     "wildwest": 2,
                     "witch": 1,
                     "zombie": 2,
-                    "artist": 3,
+                    "artist": 1,
                     "treasurehunt": 1,
-                    "familyrelationships": 3,
-                    "breakup": 2,
-                    "religion": 2
+                    "familyrelationships": 2,
+                    "breakup": 3,
+                    "religion": 3
                 }
             },
-            "animatronics": {
+            "animatronics":
+            {
                 "name-key": "animatronics",
                 "set-id": "visual-effect",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "animatronics"
                 ],
+                "cost":
+                {
+                    "small": 200000,
+                    "medium": 300000,
+                    "large": 500000,
+                    "blockbuster": 800000
+                },
                 "complexity": 2,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "specialeffect": 25
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "critics": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 3,
                     "alternatereality": 3,
                     "assassin": 1,
@@ -3406,27 +3999,43 @@
                     "zombie": 2,
                     "artist": 1,
                     "treasurehunt": 1,
-                    "familyrelationships": 2,
+                    "familyrelationships": 1,
                     "breakup": 3,
                     "religion": 3
                 }
             },
-            "weather-effects": {
+            "weather-effects":
+            {
                 "name-key": "weather-effects",
                 "set-id": "visual-effect",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "weather-effects"
                 ],
+                "cost":
+                {
+                    "small": 200000,
+                    "medium": 300000,
+                    "large": 500000,
+                    "blockbuster": 800000
+                },
                 "complexity": 2,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "specialeffect": 25
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "critics": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 1,
                     "alternatereality": 1,
                     "assassin": 2,
@@ -3493,29 +4102,45 @@
                     "wildwest": 0,
                     "witch": 3,
                     "zombie": 0,
-                    "artist": 0,
-                    "treasurehunt": 2,
-                    "familyrelationships": 3,
+                    "artist": 3,
+                    "treasurehunt": 3,
+                    "familyrelationships": 2,
                     "breakup": 2,
                     "religion": 0
                 }
             },
-            "compositing-/-green-screen": {
+            "compositing-/-green-screen":
+            {
                 "name-key": "compositing-/-green-screen",
                 "set-id": "visual-effect",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "compositing-/-green-screen"
                 ],
+                "cost":
+                {
+                    "small": 1300000,
+                    "medium": 1899999.9999999998,
+                    "large": 3099999.9999999995,
+                    "blockbuster": 5000000
+                },
                 "complexity": 5,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "specialeffect": 40
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "audience": 8
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 3,
                     "alternatereality": 3,
                     "assassin": 1,
@@ -3583,28 +4208,44 @@
                     "witch": 0,
                     "zombie": 2,
                     "artist": 1,
-                    "treasurehunt": 2,
-                    "familyrelationships": 0,
+                    "treasurehunt": 1,
+                    "familyrelationships": 1,
                     "breakup": 3,
-                    "religion": 0
+                    "religion": 3
                 }
             },
-            "motion-capture": {
+            "motion-capture":
+            {
                 "name-key": "motion-capture",
                 "set-id": "visual-effect",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "motion-capture"
                 ],
+                "cost":
+                {
+                    "small": 800000,
+                    "medium": 1200000,
+                    "large": 1999999.9999999998,
+                    "blockbuster": 3199999.9999999995
+                },
                 "complexity": 4,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "specialeffect": 35
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "audience": 8
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 3,
                     "alternatereality": 3,
                     "assassin": 1,
@@ -3671,29 +4312,45 @@
                     "wildwest": 3,
                     "witch": 0,
                     "zombie": 2,
-                    "artist": 2,
-                    "treasurehunt": 0,
-                    "familyrelationships": 0,
-                    "breakup": 1,
+                    "artist": 1,
+                    "treasurehunt": 1,
+                    "familyrelationships": 1,
+                    "breakup": 3,
                     "religion": 3
                 }
             },
-            "song-licensing": {
+            "song-licensing":
+            {
                 "name-key": "song-licensing",
                 "set-id": "film-score",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "song-licensing"
                 ],
+                "cost":
+                {
+                    "small": 800000,
+                    "medium": 1200000,
+                    "large": 1999999.9999999998,
+                    "blockbuster": 3199999.9999999995
+                },
                 "complexity": 4,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "sound": 35
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "audience": 8
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 2,
                     "alternatereality": 0,
                     "assassin": 1,
@@ -3762,27 +4419,43 @@
                     "zombie": 2,
                     "artist": 2,
                     "treasurehunt": 2,
-                    "familyrelationships": 1,
-                    "breakup": 2,
+                    "familyrelationships": 3,
+                    "breakup": 0,
                     "religion": 3
                 }
             },
-            "orchestral": {
+            "orchestral":
+            {
                 "name-key": "orchestral",
                 "set-id": "film-score",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "orchestral"
                 ],
+                "cost":
+                {
+                    "small": 1300000,
+                    "medium": 1899999.9999999998,
+                    "large": 3099999.9999999995,
+                    "blockbuster": 5000000
+                },
                 "complexity": 5,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "sound": 40
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "audience": 8
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 3,
                     "alternatereality": 3,
                     "assassin": 1,
@@ -3849,29 +4522,45 @@
                     "wildwest": 2,
                     "witch": 1,
                     "zombie": 2,
-                    "artist": 2,
-                    "treasurehunt": 3,
-                    "familyrelationships": 0,
-                    "breakup": 1,
+                    "artist": 1,
+                    "treasurehunt": 1,
+                    "familyrelationships": 2,
+                    "breakup": 3,
                     "religion": 3
                 }
             },
-            "jazzy/blues": {
+            "jazzy/blues":
+            {
                 "name-key": "jazzy/blues",
                 "set-id": "film-score",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "jazzy/blues"
                 ],
+                "cost":
+                {
+                    "small": 450000,
+                    "medium": 675000,
+                    "large": 1100000,
+                    "blockbuster": 1799999.9999999998
+                },
                 "complexity": 3,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "sound": 30
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "critics": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 1,
                     "alternatereality": 0,
                     "assassin": 1,
@@ -3938,29 +4627,45 @@
                     "wildwest": 0,
                     "witch": 3,
                     "zombie": 0,
-                    "artist": 3,
+                    "artist": 2,
                     "treasurehunt": 2,
                     "familyrelationships": 2,
-                    "breakup": 2,
-                    "religion": 3
+                    "breakup": 1,
+                    "religion": 0
                 }
             },
-            "pop/rock": {
+            "pop/rock":
+            {
                 "name-key": "pop/rock",
                 "set-id": "film-score",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "pop/rock"
                 ],
+                "cost":
+                {
+                    "small": 450000,
+                    "medium": 675000,
+                    "large": 1100000,
+                    "blockbuster": 1799999.9999999998
+                },
                 "complexity": 3,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "sound": 30
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "critics": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 3,
                     "alternatereality": 1,
                     "assassin": 3,
@@ -4027,29 +4732,45 @@
                     "wildwest": 3,
                     "witch": 1,
                     "zombie": 2,
-                    "artist": 2,
-                    "treasurehunt": 0,
-                    "familyrelationships": 2,
-                    "breakup": 2,
+                    "artist": 1,
+                    "treasurehunt": 1,
+                    "familyrelationships": 3,
+                    "breakup": 3,
                     "religion": 3
                 }
             },
-            "electronic-/-experimental": {
+            "electronic-/-experimental":
+            {
                 "name-key": "electronic-/-experimental",
                 "set-id": "film-score",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "electronic-/-experimental"
                 ],
+                "cost":
+                {
+                    "small": 200000,
+                    "medium": 300000,
+                    "large": 500000,
+                    "blockbuster": 800000
+                },
                 "complexity": 2,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "sound": 25
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "critics": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 3,
                     "alternatereality": 3,
                     "assassin": 1,
@@ -4116,29 +4837,45 @@
                     "wildwest": 0,
                     "witch": 0,
                     "zombie": 2,
-                    "artist": 3,
+                    "artist": 1,
                     "treasurehunt": 1,
-                    "familyrelationships": 2,
-                    "breakup": 0,
-                    "religion": 2
+                    "familyrelationships": 1,
+                    "breakup": 3,
+                    "religion": 1
                 }
             },
-            "accent-coach": {
+            "accent-coach":
+            {
                 "name-key": "accent-coach",
                 "set-id": "sound-recording",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "accent-coach"
                 ],
+                "cost":
+                {
+                    "small": 50000,
+                    "medium": 75000,
+                    "large": 125000,
+                    "blockbuster": 200000
+                },
                 "complexity": 1,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "sound": 20
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "critics": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 1,
                     "alternatereality": 0,
                     "assassin": 0,
@@ -4205,29 +4942,45 @@
                     "wildwest": 0,
                     "witch": 3,
                     "zombie": 0,
-                    "artist": 0,
+                    "artist": 2,
                     "treasurehunt": 2,
-                    "familyrelationships": 0,
-                    "breakup": 2,
+                    "familyrelationships": 1,
+                    "breakup": 0,
                     "religion": 0
                 }
             },
-            "foley-artist": {
+            "foley-artist":
+            {
                 "name-key": "foley-artist",
                 "set-id": "sound-recording",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "foley-artist"
                 ],
+                "cost":
+                {
+                    "small": 450000,
+                    "medium": 675000,
+                    "large": 1100000,
+                    "blockbuster": 1799999.9999999998
+                },
                 "complexity": 3,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "sound": 30
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "audience": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 2,
                     "alternatereality": 1,
                     "assassin": 1,
@@ -4294,29 +5047,45 @@
                     "wildwest": 2,
                     "witch": 1,
                     "zombie": 1,
-                    "artist": 3,
-                    "treasurehunt": 0,
-                    "familyrelationships": 0,
-                    "breakup": 0,
-                    "religion": 2
+                    "artist": 1,
+                    "treasurehunt": 1,
+                    "familyrelationships": 2,
+                    "breakup": 3,
+                    "religion": 3
                 }
             },
-            "dialogue-re-dubbing": {
+            "dialogue-re-dubbing":
+            {
                 "name-key": "dialogue-re-dubbing",
                 "set-id": "sound-recording",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "dialogue-re-dubbing"
                 ],
+                "cost":
+                {
+                    "small": 800000,
+                    "medium": 1200000,
+                    "large": 1999999.9999999998,
+                    "blockbuster": 3199999.9999999995
+                },
                 "complexity": 4,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "sound": 35
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "audience": 8
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 2,
                     "alternatereality": 1,
                     "assassin": 1,
@@ -4383,29 +5152,45 @@
                     "wildwest": 2,
                     "witch": 1,
                     "zombie": 1,
-                    "artist": 3,
-                    "treasurehunt": 0,
-                    "familyrelationships": 0,
-                    "breakup": 0,
-                    "religion": 2
+                    "artist": 1,
+                    "treasurehunt": 1,
+                    "familyrelationships": 2,
+                    "breakup": 3,
+                    "religion": 3
                 }
             },
-            "field-recording": {
+            "field-recording":
+            {
                 "name-key": "field-recording",
                 "set-id": "sound-recording",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "field-recording"
                 ],
+                "cost":
+                {
+                    "small": 200000,
+                    "medium": 300000,
+                    "large": 500000,
+                    "blockbuster": 800000
+                },
                 "complexity": 2,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "sound": 25
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "critics": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 2,
                     "alternatereality": 1,
                     "assassin": 1,
@@ -4472,29 +5257,45 @@
                     "wildwest": 3,
                     "witch": 1,
                     "zombie": 1,
-                    "artist": 0,
-                    "treasurehunt": 2,
+                    "artist": 1,
+                    "treasurehunt": 1,
                     "familyrelationships": 3,
-                    "breakup": 0,
-                    "religion": 0
+                    "breakup": 3,
+                    "religion": 3
                 }
             },
-            "ambient-sounds": {
+            "ambient-sounds":
+            {
                 "name-key": "ambient-sounds",
                 "set-id": "sound-recording",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "ambient-sounds"
                 ],
+                "cost":
+                {
+                    "small": 200000,
+                    "medium": 300000,
+                    "large": 500000,
+                    "blockbuster": 800000
+                },
                 "complexity": 2,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "sound": 25
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "critics": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 3,
                     "alternatereality": 3,
                     "assassin": 1,
@@ -4563,27 +5364,43 @@
                     "zombie": 2,
                     "artist": 2,
                     "treasurehunt": 2,
-                    "familyrelationships": 3,
-                    "breakup": 0,
-                    "religion": 2
+                    "familyrelationships": 1,
+                    "breakup": 3,
+                    "religion": 1
                 }
             },
-            "nonlinear-structure": {
+            "nonlinear-structure":
+            {
                 "name-key": "nonlinear-structure",
                 "set-id": "storytelling",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "nonlinear-structure"
                 ],
+                "cost":
+                {
+                    "small": 800000,
+                    "medium": 1200000,
+                    "large": 1999999.9999999998,
+                    "blockbuster": 3199999.9999999995
+                },
                 "complexity": 4,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "editing": 35
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "critics": 8
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 0,
                     "alternatereality": 2,
                     "assassin": 2,
@@ -4652,27 +5469,43 @@
                     "zombie": 1,
                     "artist": 3,
                     "treasurehunt": 3,
-                    "familyrelationships": 3,
-                    "breakup": 3,
-                    "religion": 1
+                    "familyrelationships": 1,
+                    "breakup": 2,
+                    "religion": 0
                 }
             },
-            "flashbacks": {
+            "flashbacks":
+            {
                 "name-key": "flashbacks",
                 "set-id": "storytelling",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "flashbacks"
                 ],
+                "cost":
+                {
+                    "small": 200000,
+                    "medium": 300000,
+                    "large": 500000,
+                    "blockbuster": 800000
+                },
                 "complexity": 2,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "editing": 25
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "audience": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 1,
                     "alternatereality": 1,
                     "assassin": 3,
@@ -4742,26 +5575,42 @@
                     "artist": 3,
                     "treasurehunt": 3,
                     "familyrelationships": 1,
-                    "breakup": 1,
+                    "breakup": 2,
                     "religion": 0
                 }
             },
-            "nested-stories": {
+            "nested-stories":
+            {
                 "name-key": "nested-stories",
                 "set-id": "storytelling",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "nested-stories"
                 ],
+                "cost":
+                {
+                    "small": 450000,
+                    "medium": 675000,
+                    "large": 1100000,
+                    "blockbuster": 1799999.9999999998
+                },
                 "complexity": 3,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "editing": 30
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "critics": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 1,
                     "alternatereality": 1,
                     "assassin": 3,
@@ -4828,29 +5677,45 @@
                     "wildwest": 2,
                     "witch": 2,
                     "zombie": 0,
-                    "artist": 3,
+                    "artist": 2,
                     "treasurehunt": 2,
-                    "familyrelationships": 1,
-                    "breakup": 1,
-                    "religion": 2
+                    "familyrelationships": 2,
+                    "breakup": 2,
+                    "religion": 0
                 }
             },
-            "cross-cutting": {
+            "cross-cutting":
+            {
                 "name-key": "cross-cutting",
                 "set-id": "storytelling",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "cross-cutting"
                 ],
+                "cost":
+                {
+                    "small": 200000,
+                    "medium": 300000,
+                    "large": 500000,
+                    "blockbuster": 800000
+                },
                 "complexity": 2,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "editing": 25
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "audience": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 3,
                     "alternatereality": 1,
                     "assassin": 3,
@@ -4917,29 +5782,45 @@
                     "wildwest": 1,
                     "witch": 3,
                     "zombie": 2,
-                    "artist": 0,
-                    "treasurehunt": 3,
-                    "familyrelationships": 1,
-                    "breakup": 2,
+                    "artist": 2,
+                    "treasurehunt": 2,
+                    "familyrelationships": 2,
+                    "breakup": 3,
                     "religion": 1
                 }
             },
-            "narrative-framing": {
+            "narrative-framing":
+            {
                 "name-key": "narrative-framing",
                 "set-id": "storytelling",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "narrative-framing"
                 ],
+                "cost":
+                {
+                    "small": 50000,
+                    "medium": 75000,
+                    "large": 125000,
+                    "blockbuster": 200000
+                },
                 "complexity": 1,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "editing": 20
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "critics": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 1,
                     "alternatereality": 0,
                     "assassin": 1,
@@ -5006,29 +5887,45 @@
                     "wildwest": 0,
                     "witch": 3,
                     "zombie": 0,
-                    "artist": 3,
-                    "treasurehunt": 3,
+                    "artist": 2,
+                    "treasurehunt": 2,
                     "familyrelationships": 2,
-                    "breakup": 0,
-                    "religion": 1
+                    "breakup": 1,
+                    "religion": 0
                 }
             },
-            "rhythmic-editing": {
+            "rhythmic-editing":
+            {
                 "name-key": "rhythmic-editing",
                 "set-id": "pacing",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "rhythmic-editing"
                 ],
+                "cost":
+                {
+                    "small": 1300000,
+                    "medium": 1899999.9999999998,
+                    "large": 3099999.9999999995,
+                    "blockbuster": 5000000
+                },
                 "complexity": 5,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "editing": 40
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "audience": 8
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 3,
                     "alternatereality": 1,
                     "assassin": 3,
@@ -5095,29 +5992,45 @@
                     "wildwest": 1,
                     "witch": 1,
                     "zombie": 2,
-                    "artist": 2,
+                    "artist": 1,
                     "treasurehunt": 1,
-                    "familyrelationships": 2,
-                    "breakup": 2,
+                    "familyrelationships": 0,
+                    "breakup": 3,
                     "religion": 1
                 }
             },
-            "montage-sequences": {
+            "montage-sequences":
+            {
                 "name-key": "montage-sequences",
                 "set-id": "pacing",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "montage-sequences"
                 ],
+                "cost":
+                {
+                    "small": 200000,
+                    "medium": 300000,
+                    "large": 500000,
+                    "blockbuster": 800000
+                },
                 "complexity": 2,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "editing": 25
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "audience": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 3,
                     "alternatereality": 1,
                     "assassin": 3,
@@ -5184,29 +6097,45 @@
                     "wildwest": 3,
                     "witch": 1,
                     "zombie": 3,
-                    "artist": 2,
-                    "treasurehunt": 3,
-                    "familyrelationships": 0,
+                    "artist": 1,
+                    "treasurehunt": 1,
+                    "familyrelationships": 1,
                     "breakup": 3,
-                    "religion": 3
+                    "religion": 1
                 }
             },
-            "temporal-stretching": {
+            "temporal-stretching":
+            {
                 "name-key": "temporal-stretching",
                 "set-id": "pacing",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "temporal-stretching"
                 ],
+                "cost":
+                {
+                    "small": 200000,
+                    "medium": 300000,
+                    "large": 500000,
+                    "blockbuster": 800000
+                },
                 "complexity": 2,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "editing": 25
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "audience": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 1,
                     "alternatereality": 0,
                     "assassin": 1,
@@ -5273,29 +6202,45 @@
                     "wildwest": 0,
                     "witch": 3,
                     "zombie": 0,
-                    "artist": 1,
+                    "artist": 2,
                     "treasurehunt": 2,
                     "familyrelationships": 2,
-                    "breakup": 0,
-                    "religion": 2
+                    "breakup": 1,
+                    "religion": 0
                 }
             },
-            "long-take": {
+            "long-take":
+            {
                 "name-key": "long-take",
                 "set-id": "pacing",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "long-take"
                 ],
+                "cost":
+                {
+                    "small": 800000,
+                    "medium": 1200000,
+                    "large": 1999999.9999999998,
+                    "blockbuster": 3199999.9999999995
+                },
                 "complexity": 4,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "editing": 35
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "critics": 8
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 2,
                     "alternatereality": 1,
                     "assassin": 1,
@@ -5362,29 +6307,45 @@
                     "wildwest": 2,
                     "witch": 1,
                     "zombie": 1,
-                    "artist": 3,
+                    "artist": 1,
                     "treasurehunt": 1,
                     "familyrelationships": 2,
-                    "breakup": 2,
-                    "religion": 2
+                    "breakup": 3,
+                    "religion": 3
                 }
             },
-            "slow-motion": {
+            "slow-motion":
+            {
                 "name-key": "slow-motion",
                 "set-id": "pacing",
-                "tech-reqs": [
+                "tech-reqs":
+                [
                     "slow-motion"
                 ],
+                "cost":
+                {
+                    "small": 50000,
+                    "medium": 75000,
+                    "large": 125000,
+                    "blockbuster": 200000
+                },
                 "complexity": 1,
-                "planning-reqs": {
+                "planning-reqs":
+                {
                     "editing": 20
                 },
-                "rating-affinity": {
+                "score-reqs":
+                {
+                    "audience": 7
+                },
+                "rating-affinity":
+                {
                     "pg": 1,
                     "pg-13": 1,
                     "r": 1
                 },
-                "theme-affinity": {
+                "theme-affinity":
+                {
                     "alien": 3,
                     "alternatereality": 1,
                     "assassin": 3,
@@ -5451,11 +6412,11 @@
                     "wildwest": 2,
                     "witch": 1,
                     "zombie": 2,
-                    "artist": 0,
+                    "artist": 1,
                     "treasurehunt": 1,
-                    "familyrelationships": 1,
-                    "breakup": 0,
-                    "religion": 2
+                    "familyrelationships": 2,
+                    "breakup": 3,
+                    "religion": 3
                 }
             }
         }
