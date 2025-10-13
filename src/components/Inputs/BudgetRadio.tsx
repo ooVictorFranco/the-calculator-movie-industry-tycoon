@@ -3,11 +3,8 @@
 
 import React from "react";
 import { useLanguage } from "@/context/LanguageContext";
-
-type BudgetOption = {
-  value: string;
-  label: string;
-};
+import { BudgetOption, BUDGET_VALUES } from "@/constants/budget";
+import { toTranslationRecord } from "@/utils/translationHelpers";
 
 type BudgetRadioProps = {
   label?: string;
@@ -20,13 +17,14 @@ const getBudgetColorClass = (isSelected: boolean): string =>
 
 const BudgetRadio: React.FC<BudgetRadioProps> = ({ label, selectedValue, onChange }) => {
   const { translations: t } = useLanguage();
+  const tr = toTranslationRecord(t);
 
   // Define as opções dinamicamente utilizando as chaves de tradução (em inglês)
   const budgetOptions: BudgetOption[] = [
-    { value: "Small", label: (t as unknown as Record<string, string>)["BUDGET_SMALL"] || "Small" },
-    { value: "Moderate", label: (t as unknown as Record<string, string>)["BUDGET_MODERATE"] || "Moderate" },
-    { value: "Large", label: (t as unknown as Record<string, string>)["BUDGET_LARGE"] || "Large" },
-    { value: "Blockbuster", label: (t as unknown as Record<string, string>)["BUDGET_BLOCKBUSTER"] || "Blockbuster" }
+    { value: BUDGET_VALUES.SMALL, label: tr["BUDGET_SMALL"] || BUDGET_VALUES.SMALL },
+    { value: BUDGET_VALUES.MODERATE, label: tr["BUDGET_MODERATE"] || BUDGET_VALUES.MODERATE },
+    { value: BUDGET_VALUES.LARGE, label: tr["BUDGET_LARGE"] || BUDGET_VALUES.LARGE },
+    { value: BUDGET_VALUES.BLOCKBUSTER, label: tr["BUDGET_BLOCKBUSTER"] || BUDGET_VALUES.BLOCKBUSTER }
   ];
 
   return (
@@ -42,7 +40,7 @@ const BudgetRadio: React.FC<BudgetRadioProps> = ({ label, selectedValue, onChang
               type="button"
               className={`w-full px-4 py-2 rounded-lg font-medium border transition-all duration-200 focus:outline-none focus:ring focus:ring-offset-2 ${getBudgetColorClass(isSelected)}`}
               onClick={() => onChange(option.value)}
-              aria-selected={isSelected}
+              aria-pressed={isSelected}
               aria-label={option.label}
             >
               {option.label}

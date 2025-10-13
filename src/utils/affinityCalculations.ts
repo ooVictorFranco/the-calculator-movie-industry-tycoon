@@ -1,5 +1,7 @@
 // src/utils/affinityCalculations.ts
 
+import { AffinityData } from "@/types/affinity";
+
 /**
  * Interface que representa o score e rótulo de afinidade para um determinado gênero.
  */
@@ -51,7 +53,7 @@ export const getAffinityLabel = (
 export const calculateGenreScores = (
   sourceGenre: string | null,
   themeScores: GenreScore[] | null,
-  affinities: any,
+  affinities: AffinityData,
   genres: string[],
   getAffinityLabelFn: (score: number) => string
 ): GenreScore[] => {
@@ -96,7 +98,7 @@ export const calculateGenreScores = (
  */
 export const getThemeScores = (
   theme: string,
-  affinities: any,
+  affinities: AffinityData,
   genres: string[],
   getAffinityLabelFn: (score: number) => string
 ): GenreScore[] => {

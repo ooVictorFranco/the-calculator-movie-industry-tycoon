@@ -9,6 +9,7 @@ import {
   SeasonResult
 } from "@/utils/affinityCalculations";
 import affinities from "@/data";
+import { BUDGET_FACTORS } from "@/constants/budget";
 
 /**
  * Interface para definir as propriedades do hook useCalculateAffinity.
@@ -57,7 +58,7 @@ export const useCalculateAffinity = ({
   const [loading, setLoading] = useState(false);
 
   // Função auxiliar para obter o rótulo da afinidade com base no score
-  const getLabel = (score: number) => getAffinityLabel(score, translations);
+  const getLabel = useCallback((score: number) => getAffinityLabel(score, translations), [translations]);
 
   /**
    * Função principal que calcula a afinidade do filme.
@@ -93,13 +94,7 @@ export const useCalculateAffinity = ({
         genreScore;
 
       // Fatores de ajuste com base no orçamento
-      const budgetFactorMap: Record<string, number> = {
-        "Pequeno": 0.9,
-        "Moderado": 1.0,
-        "Grande": 1.1,
-        "Blockbuster": 1.2
-      };
-      const budgetFactor = budgetFactorMap[budget] || 1.0;
+      const budgetFactor = BUDGET_FACTORS[budget] || 1.0;
 
       // Aplicação do fator de orçamento à pontuação base
       const finalBaseScore =
@@ -164,10 +159,10 @@ export const useCalculateAffinity = ({
     rating,
     budget,
     genres,
-    translations,
     formStartTime,
     filledFields,
-    safeGtag
+    safeGtag,
+    getLabel
   ]);
 
   // Executa o cálculo sempre que os parâmetros mudarem

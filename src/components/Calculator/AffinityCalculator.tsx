@@ -16,21 +16,15 @@ import { useCalculateProduction } from "@/hooks/useCalculateProduction";
 import { useCalculateExtraResources } from "@/hooks/useCalculateExtraResources";
 import affinities from "@/data";
 import { getThemeScores, getAffinityLabel, calculateGenreScores } from "@/utils/affinityCalculations";
-
-const budgetOptions = [
-  { value: "Pequeno", label: "Pequeno" },
-  { value: "Moderado", label: "Moderado" },
-  { value: "Grande", label: "Grande" },
-  { value: "Blockbuster", label: "Blockbuster" }
-];
+import { toTranslationRecord, getTranslation } from "@/utils/translationHelpers";
 
 const AffinityCalculator: React.FC = () => {
   const { translations: t, locale } = useLanguage();
   const { safeGtag } = useGtag();
+  const tr = toTranslationRecord(t);
 
   // 🔹 Função auxiliar para obter traduções de forma segura
-  const getTranslation = (key: string): string =>
-    (t as unknown as Record<string, string>)[key] || key;
+  const getTr = (key: string): string => getTranslation(t, key, key);
 
   const [genres] = useState<string[]>(affinities.genreRelations.header);
   const [genre1, setGenre1] = useState("");
@@ -44,7 +38,7 @@ const AffinityCalculator: React.FC = () => {
   // 🔹 Opções de classificação etária com tradução acessível
   const ratingsOptions = Object.keys(affinities.ratingImpact.items).map((ratingKey) => ({
     value: ratingKey,
-    label: getTranslation(`RATING_${ratingKey.replace("-", "_").toUpperCase()}`) || ratingKey,
+    label: getTr(`RATING_${ratingKey.replace("-", "_").toUpperCase()}`) || ratingKey,
   }));
 
   const [genresOptions1, setGenresOptions1] = useState<{ genre: string; score: number; label: string }[]>([]);
@@ -123,21 +117,21 @@ const AffinityCalculator: React.FC = () => {
 
   return (
     <div className="affinity-form-container flex flex-col gap-6 w-full max-w-2xl mx-auto p-6 bg-white dark:bg-gray-800 rounded-xl shadow-xl">
-      <h2 className="text-l font-bold text-center text-gray-800 dark:text-gray-100">{t.subtitle}</h2>
+      <h2 className="text-l font-bold text-center text-gray-800 dark:text-gray-100">{tr.subtitle}</h2>
 
       <div className="flex flex-col gap-4">
         {/* Seletor de orçamento */}
-        <BudgetRadio label={t.budget || "Orçamento"} selectedValue={budget} onChange={(value) => setBudget(value)} />
+        <BudgetRadio label={tr.budget || "Orçamento"} selectedValue={budget} onChange={(value) => setBudget(value)} />
 
         <div className="border-t border-gray-300 dark:border-gray-600 w-full"></div>
 
         {/* Seletor de tema acessível */}
         <SelectInput
           name="theme"
-          label={t.theme}
+          label={tr.theme}
           options={Object.keys(affinities.thematicRelations.items).sort((a, b) => {
             const getThemeLabel = (key: string): string =>
-              (getTranslation(`THEME_${key.toLowerCase()}`) || key).toLowerCase();
+              (getTr(`THEME_${key.toLowerCase()}`) || key).toLowerCase();
             return getThemeLabel(a).localeCompare(getThemeLabel(b));
           })}
           value={theme}
@@ -147,19 +141,19 @@ const AffinityCalculator: React.FC = () => {
 
         {/* Seletor de gêneros */}
         <div className="grid md:grid-cols-2 gap-4">
-          <GenresInput name="genre1" label={t.genre1} options={genresOptions1} value={genre1} onChange={(value) => setGenre1(value)} />
-          <GenresInput name="genre2" label={t.genre2} options={genresOptions2} value={genre2} onChange={(value) => setGenre2(value)} isOptional />
+          <GenresInput name="genre1" label={tr.genre1} options={genresOptions1} value={genre1} onChange={(value) => setGenre1(value)} />
+          <GenresInput name="genre2" label={tr.genre2} options={genresOptions2} value={genre2} onChange={(value) => setGenre2(value)} isOptional />
         </div>
 
         <div className="border-t border-gray-300 dark:border-gray-600 w-full"></div>
 
         {/* Seletor de classificação etária */}
-        <AgeRatingRadio label={t.rating} options={ratingsOptions} selectedValue={rating} onChange={(value) => setRating(value)} />
+        <AgeRatingRadio label={tr.rating} options={ratingsOptions} selectedValue={rating} onChange={(value) => setRating(value)} />
 
         {/* Botão de limpeza */}
         {result !== null && (
           <div className="result-actions pt-4">
-            <ClearButton onClear={handleClearAll} label={t.clearAll} testId="clear-all-button" />
+            <ClearButton onClear={handleClearAll} label={tr.clearAll} testId="clear-all-button" />
             <div className="border-t border-gray-300 dark:border-gray-600 w-full"></div>
           </div>
         )}
