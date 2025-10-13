@@ -2,6 +2,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 
 interface ModalProps {
   onClose: () => void;
@@ -34,7 +35,7 @@ const Modal: React.FC<ModalProps> = ({ onClose, gifUrl, title, description }) =>
           </svg>
         </button>
         <div className="flex flex-col items-center">
-          <img src={gifUrl} alt={title} className="w-full h-auto rounded" />
+          <Image src={gifUrl} alt={title} width={400} height={300} className="w-full h-auto rounded" unoptimized />
           <h2 className="mt-4 text-xl font-bold text-gray-800 dark:text-gray-100">{title}</h2>
           {description && (
             <p className="mt-2 text-gray-600 dark:text-gray-300 text-center">{description}</p>
